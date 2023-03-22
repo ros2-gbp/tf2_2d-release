@@ -1,0 +1,100 @@
+ros-rolling-tf2-2d (1.0.1-2bullseye) bullseye; urgency=high
+
+  * Port tf2_2d to ROS 2 (#5 <https://github.com/locusrobotics/tf2_2d/issues/5>)
+    * Build sytem changes for ROS 2
+    * Code changes for ROS 2
+    * Don't need int main(); because linking to GTEST_MAIN_LIBRARIES
+    * Skip ament_cmake_copyright
+    * Move .h headers to .hpp
+    * Add .h headers with warning for backwards compatability
+    * Linter fixes: Satisfy Uncrustify
+    * Linter fixes: Satisfy cpplint
+    * Minimum CMake 3.14.4
+    * ${tf2_geometry_msgs_TARGETS} -> tf2_geometry_msgs::tf2_geometry_msgs
+    * Bump copywrite date on redirection headers
+    * Remove Scalar.h include
+  * Tailor: Updating Jenkinsfile
+  * Tailor: Updating Jenkinsfile
+  * Tailor: Updating Jenkinsfile
+  * Contributors: Shane Loretz, locus-services
+
+ -- Stephen Williams <swilliams@locusrobotics.com>  Fri, 03 Mar 2023 08:00:00 -0000
+
+ros-rolling-tf2-2d (0.6.4-2bullseye) bullseye; urgency=high
+
+  * Handling issue with tf2 circular dependency (#4 <https://github.com/locusrobotics/tf2_2d/issues/4>)
+    * Handling issue with tf2 circular dependency and other warnings
+  * Contributors: Tom Moore
+
+ -- Stephen Williams <swilliams@locusrobotics.com>  Wed, 14 Jul 2021 07:00:00 -0000
+
+ros-rolling-tf2-2d (0.6.3-2bullseye) bullseye; urgency=high
+
+  * Fixing package license
+  * Contributors: Tom Moore
+
+ -- Stephen Williams <swilliams@locusrobotics.com>  Tue, 13 Jul 2021 07:00:00 -0000
+
+ros-rolling-tf2-2d (0.6.2-2bullseye) bullseye; urgency=high
+
+  * Fix test build issue in noetic
+  * Contributors: Tom Moore
+
+ -- Stephen Williams <swilliams@locusrobotics.com>  Mon, 12 Jul 2021 07:00:00 -0000
+
+ros-rolling-tf2-2d (0.6.1-2bullseye) bullseye; urgency=high
+
+  * Contributors: locus-services
+
+ -- Stephen Williams <swilliams@locusrobotics.com>  Sun, 11 Jul 2021 07:00:00 -0000
+
+ros-rolling-tf2-2d (0.6.0-2bullseye) bullseye; urgency=high
+
+  * Contributors: locus-services
+
+ -- Stephen Williams <swilliams@locusrobotics.com>  Fri, 02 Oct 2020 07:00:00 -0000
+
+ros-rolling-tf2-2d (0.5.0-2bullseye) bullseye; urgency=high
+
+  * License cleanup (#3 <https://github.com/locusrobotics/tf2_2d/issues/3>)
+  * Contributors: Stephen Williams, locus-services
+
+ -- Stephen Williams <swilliams@locusrobotics.com>  Fri, 12 Jul 2019 07:00:00 -0000
+
+ros-rolling-tf2-2d (0.4.0-2bullseye) bullseye; urgency=high
+
+  * Contributors: locus-services
+
+ -- Stephen Williams <swilliams@locusrobotics.com>  Mon, 18 Mar 2019 07:00:00 -0000
+
+ros-rolling-tf2-2d (0.3.0-2bullseye) bullseye; urgency=high
+
+  * [RST-1548] transform covariance (#2 <https://github.com/locusrobotics/tf2_2d/issues/2>)
+    * Added conversions to Eigen types
+    * Added stream operators
+    * Added some additional toMsg conversions using a non-tf2-standard signature
+    * Added functions to transform SE2 covariance matrices
+  * Tailor: Creating Jenkinsfile
+  * Expanded readme
+  * Renamed the Transform rotation value to 'yaw'
+  * Moved into separate repo
+  * Contributors: Stephen Williams, locus-services
+
+ -- Stephen Williams <swilliams@locusrobotics.com>  Wed, 16 Jan 2019 08:00:00 -0000
+
+ros-rolling-tf2-2d (0.2.0-2bullseye) bullseye; urgency=high
+
+  * Adding tf_2d constructor overload from a standard tf transform
+  * Contributors: Stephen Williams, Tom Moore
+
+ -- Stephen Williams <swilliams@locusrobotics.com>  Mon, 16 Apr 2018 07:00:00 -0000
+
+ros-rolling-tf2-2d (0.1.0-2bullseye) bullseye; urgency=high
+
+  * Small trig cache optimization in the 'unrotate()' function
+  * Added 2D geometry classes (vector, rotation, transform) and conversion functions in the style of the tf2 3D geometry classes
+  * Contributors: Stephen Williams
+
+ -- Stephen Williams <swilliams@locusrobotics.com>  Wed, 14 Feb 2018 08:00:00 -0000
+
+
