@@ -24,5 +24,4 @@ tracks:
     ros_distro: rolling
     vcs_type: git
     vcs_uri: https://github.com/locusrobotics/tf2_2d.git
-    version: 1.0.1
-    version_saved: :{auto}
+    version: :{auto}
