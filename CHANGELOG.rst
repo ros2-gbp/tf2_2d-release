@@ -2,13 +2,16 @@
 Changelog for package tf2_2d
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1.5.0 (2025-07-28)
+1.6.0 (2025-07-28)
 ------------------
 
-1.4.0 (2025-07-28)
+1.3.2 (2025-05-24)
 ------------------
 * Updated tf2 header extensions from .h to .hpp (`#11 <https://github.com/locusrobotics/tf2_2d/issues/11>`_)
 * Contributors: Stephen Williams, locus-services
+
+1.3.1 (2025-02-04)
+------------------
 
 1.3.0 (2025-02-04)
 ------------------
