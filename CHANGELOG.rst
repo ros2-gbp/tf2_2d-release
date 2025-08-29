@@ -2,19 +2,26 @@
 Changelog for package tf2_2d
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1.4.1 (2025-08-29)
+1.6.1 (2025-08-29)
 ------------------
 * Update header files (`#12 <https://github.com/locusrobotics/tf2_2d/issues/12>`_)
   * Update header files
   * Fix header order
   ---------
   Co-authored-by: Stephen Williams <swilliams@locusrobotics.com>
-* Contributors: Gary Servin
+* Remove support for deprecated geometry_msgs::msg::Pose2D type
+* Contributors: Gary Servin, Stephen Williams
 
-1.4.0 (2025-07-28)
+1.6.0 (2025-07-28)
+------------------
+
+1.3.2 (2025-05-24)
 ------------------
 * Updated tf2 header extensions from .h to .hpp (`#11 <https://github.com/locusrobotics/tf2_2d/issues/11>`_)
 * Contributors: Stephen Williams, locus-services
+
+1.3.1 (2025-02-04)
+------------------
 
 1.3.0 (2025-02-04)
 ------------------
