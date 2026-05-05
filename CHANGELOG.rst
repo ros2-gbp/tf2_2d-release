@@ -2,6 +2,11 @@
 Changelog for package tf2_2d
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.5.1 (2026-05-05)
+------------------
+* Update header file include order (`#12 <https://github.com/locusrobotics/tf2_2d/issues/12>`_)
+* Contributors: Gary Servin
+
 1.5.0 (2025-07-28)
 ------------------
 
