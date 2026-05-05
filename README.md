@@ -1,3 +1,26 @@
+## tf2_2d (kilted) - 1.5.1-1
+
+The packages in the `tf2_2d` repository were released into the `kilted` distro by running `/usr/bin/bloom-release --rosdistro kilted tf2_2d` on `Tue, 05 May 2026 12:53:39 -0000`
+
+The `tf2_2d` package was released.
+
+Version of package(s) in repository `tf2_2d`:
+
+- upstream repository: https://github.com/locusrobotics/tf2_2d.git
+- release repository: https://github.com/ros2-gbp/tf2_2d-release.git
+- rosdistro version: `1.5.0-1`
+- old version: `1.5.0-1`
+- new version: `1.5.1-1`
+
+Versions of tools used:
+
+- bloom version: `0.14.3`
+- catkin_pkg version: `1.1.0`
+- rosdep version: `0.26.0`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## tf2_2d (rolling) - 1.6.1-1
 
 The packages in the `tf2_2d` repository were released into the `rolling` distro by running `/usr/bin/bloom-release --rosdistro rolling tf2_2d` on `Fri, 29 Aug 2025 16:28:13 -0000`
