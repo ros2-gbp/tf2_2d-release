@@ -1,3 +1,26 @@
+## tf2_2d (lyrical) - 1.6.2-1
+
+The packages in the `tf2_2d` repository were released into the `lyrical` distro by running `/usr/bin/bloom-release --edit-track --rosdistro lyrical tf2_2d` on `Wed, 19 Aug 2026 18:22:32 -0000`
+
+The `tf2_2d` package was released.
+
+Version of package(s) in repository `tf2_2d`:
+
+- upstream repository: https://github.com/locusrobotics/tf2_2d.git
+- release repository: https://github.com/ros2-gbp/tf2_2d-release.git
+- rosdistro version: `1.6.1-3`
+- old version: `1.6.1-3`
+- new version: `1.6.2-1`
+
+Versions of tools used:
+
+- bloom version: `0.14.3`
+- catkin_pkg version: `1.1.0`
+- rosdep version: `0.26.0`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## tf2_2d (rolling) - 1.6.2-1
 
 The packages in the `tf2_2d` repository were released into the `rolling` distro by running `/usr/bin/bloom-release --rosdistro rolling tf2_2d` on `Wed, 19 Aug 2026 13:13:49 -0000`
